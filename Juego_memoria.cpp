@@ -1,7 +1,7 @@
 /*JUEGO DE MEMORIA*/
 #include<stdio.h>
-
+#include<stdlib> //rand 
 int main(){
-    printf("hola abril");
+    printf("Aqui");
     return 0;
 }
