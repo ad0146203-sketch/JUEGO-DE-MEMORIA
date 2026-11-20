@@ -1,6 +1,6 @@
 /*JUEGO DE MEMORIA*/
 #include<stdio.h>
-#include<stdlib> //rand 
+#include<stdlib.h> //rand 
 #include<time.h>
 
 #define MAX 100
@@ -8,7 +8,7 @@
     void generarSecuencia(int secuencia[], int longitud);
     void mostrarSecuencia(int secuencia[], int longitud);
     void leerSecuencia(int secuencia[], int longitud);
-    int compararSecuencias(int secuencia[], int secuencia_usuario, int longitud[]);
+    int compararSecuencias(int secuencia[], int secuencia_usuario[], int longitud[]);
 
 
 int main(){
