@@ -35,5 +35,5 @@ int main(){
                 
         
 }
-void llenar(int secuencia[]){
+
     
