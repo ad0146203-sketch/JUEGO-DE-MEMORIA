@@ -34,6 +34,18 @@ int main(){
             if(compararSecuencias(secuencia, secuencia_usuario, longitud)){
                 
         
+}//while
+        }//int main
+
+void generarSecuencia(int secuencia[], int longitud){
+    
 }
 
-    
+void mostrarSecuencia(int secuencia[], int longitud){
+}
+
+void leerSecuencia(int secuencia[], int longitud){
+}
+
+int compararSecuencias(int secuencia[], int secuencia_usuario, int longitud[]){
+}
