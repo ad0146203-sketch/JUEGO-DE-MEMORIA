@@ -16,7 +16,7 @@ int main(){
     int secuencia_usuario[MAX];
     int longitud, puntuacion, aciertos;
     char opcion;
-    srand(time(NULL))
+    srand(time(NULL));
     printf("--------Simon Dice-------");n
     printf("Memoriza los números (del 1 al 4 y repitelos en el mismo orden.\n);
     return 0;
