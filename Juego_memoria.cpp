@@ -19,17 +19,17 @@ int main(){
     srand(time(NULL));
     printf("--------Simon Dice-------");n
     printf("Memoriza los números (del 1 al 4 y repitelos en el mismo orden.\n);
-    return 0;
+    
 
     do{
         longitud = 1;//cuantos numeros tiene la secuencia actual
         puntuacion = 0;
         acierto=1;
 
-        while(acierto){
+        while(aciertos){
             generarSecuencia(secuencia, longitud);
             mostrarSecuencia(secuencia, longitud);
-            leerSEcuencia(secuencia_usuario, longitud);
+            leerSecuencia(secuencia_usuario, longitud);
 
             if(compararSecuencias(secuencia, secuencia_usuario, longitud)){
                 
